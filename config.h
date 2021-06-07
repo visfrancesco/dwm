@@ -72,13 +72,13 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "termite", NULL };
 static const char *rofi[] = { "rofi", "-show", "run", NULL};
 static const char *firefox[] = {"firefox", NULL};
-static const char *maim[] = {"./.maim.sh", NULL};
+static const char *maim[] = {"/home/frank/dev/Scripts/maim.sh", NULL};
 static const char *flameshot[] = {"flameshot", "gui", NULL};
-static const char *play[] = {"./.media.sh", "1", NULL};
-static const char *next[] = {"./.media.sh", "2", NULL};
-static const char *back[] = {"./.media.sh", "3", NULL};
-static const char *minus[] = {"./.control.sh", "0", NULL};
-static const char *plus[] = {"./.control.sh", "1", NULL};
+static const char *play[] = {"/home/frank/dev/Scripts/media.sh", "1", NULL};
+static const char *next[] = {"/home/frank/dev/Scripts/media.sh", "2", NULL};
+static const char *back[] = {"/home/frank/dev/Scripts/media.sh", "3", NULL};
+static const char *minus[] = {"/home/frank/dev/Scripts/control.sh", "0", NULL};
+static const char *plus[] = {"/home/frank/dev/Scripts/control.sh", "1", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
